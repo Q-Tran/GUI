@@ -1,0 +1,50 @@
+html {
+    background-color: #eee;
+}
+.title{
+	width:100%;
+	height:70px;
+	margin:10px;
+	float:left;
+}
+.wrapper{
+	width:60%;
+}
+h1{
+	font-family: "Trebuchet MS";
+}
+.column1{
+	width:30%;
+    margin:10px;
+	float:left;
+}
+.column2{
+	width:30%;
+    margin:10px;
+	float:left;
+}
+.column3{
+	width:30%;
+    margin:10px;
+	float:left;
+}
+.redtext{
+	color:red;
+}
+.crossout{
+	color: red;
+	text-decoration: line-through;
+}
+.bluetext{
+	color:blue;
+}
+.greytext{
+	color:grey;
+}
+.space{
+	margin-bottom: 30px;
+}
+.irregular{
+	margin-bottom: 50px;
+}
+/* Your CSS here */

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--
+   COLLABORATORS: NONE
+   
+  -->
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Ready, Set, Translate !</title>
+    <link href="jquery/css/ui-lightness/jquery-ui-1.10.0.custom.css" rel="stylesheet" />
+    <link href="translate_game.css" rel="stylesheet" />
+
+  </head>
+  <body>
+    <!-- Your HTML here -->
+    <div class="wrapper">
+      <div class="title">
+        <h1><span class="greytext">Translate from </span>Spanish <span class="greytext">to</span> English</h1>
+      </div>
+      <div class="column1" id="column1">
+        <h2>Spanish</h2>
+        <p id="current" class="irregular">espejo<p>
+        <p><span class="bluetext">calabaza</span></p>
+        <p><span class="redtext">postmodernidad</span></p>
+      </div>
+      <div class="column2" id="column2">
+        <h2>English</h2>
+        <input id="translation" type="text" autofocus="autofocus" class="space"/>
+        <p><span class="bluetext">pumpkin</span></p>
+        <p><span class="crossout"><span class="redtext">phone</span></span></p>
+      </div>
+      <div class="column3" id="column3">
+        <h2>Answer</h2>
+        <input id="click_me" type="button" value="See Answer" class="space"/>
+        <p>✔</p>
+        <p><span class="redtext">postmodernism</span><p>
+      </div>
+    </div>
+    <script src="jquery/js/jquery-1.9.0.min.js"></script>
+    <script src="jquery/js/jquery-ui-1.10.0.custom.min.js"></script>
+    <script src="dicts.json"></script>
+    <script src="translate_game.js"></script>
+  </body>
+</html>
